@@ -1,0 +1,351 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.UI\\Smt.TodoAppNTier.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.Business\\Smt.TodoAppNTier.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.Business\\Smt.TodoAppNTier.Business.csproj",
+        "projectName": "Smt.TodoAppNTier.Business",
+        "projectPath": "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.Business\\Smt.TodoAppNTier.Business.csproj",
+        "packagesPath": "C:\\Users\\Maraz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Maraz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.DataAccess\\Smt.TodoAppNTier.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.DataAccess\\Smt.TodoAppNTier.DataAccess.csproj"
+              },
+              "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.Dtos\\Smt.TodoAppNTier.Dtos.csproj": {
+                "projectPath": "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.Dtos\\Smt.TodoAppNTier.Dtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.DataAccess\\Smt.TodoAppNTier.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.DataAccess\\Smt.TodoAppNTier.DataAccess.csproj",
+        "projectName": "Smt.TodoAppNTier.DataAccess",
+        "projectPath": "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.DataAccess\\Smt.TodoAppNTier.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Maraz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Maraz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.Entities\\Smt.TodoAppNTier.Entities.csproj": {
+                "projectPath": "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.Entities\\Smt.TodoAppNTier.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.Dtos\\Smt.TodoAppNTier.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.Dtos\\Smt.TodoAppNTier.Dtos.csproj",
+        "projectName": "Smt.TodoAppNTier.Dtos",
+        "projectPath": "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.Dtos\\Smt.TodoAppNTier.Dtos.csproj",
+        "packagesPath": "C:\\Users\\Maraz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.Dtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Maraz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.Entities\\Smt.TodoAppNTier.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.Entities\\Smt.TodoAppNTier.Entities.csproj",
+        "projectName": "Smt.TodoAppNTier.Entities",
+        "projectPath": "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.Entities\\Smt.TodoAppNTier.Entities.csproj",
+        "packagesPath": "C:\\Users\\Maraz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Maraz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.UI\\Smt.TodoAppNTier.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.UI\\Smt.TodoAppNTier.UI.csproj",
+        "projectName": "Smt.TodoAppNTier.UI",
+        "projectPath": "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.UI\\Smt.TodoAppNTier.UI.csproj",
+        "packagesPath": "C:\\Users\\Maraz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Maraz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.Business\\Smt.TodoAppNTier.Business.csproj": {
+                "projectPath": "C:\\Users\\Maraz\\source\\repos\\Smt.TodoAppNTier\\Smt.TodoAppNTier.Business\\Smt.TodoAppNTier.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
