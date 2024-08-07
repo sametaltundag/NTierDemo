@@ -1,0 +1,12 @@
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Entities\bin\Debug\net5.0\Smt.TodoAppNTier.Entities.deps.json
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Entities\bin\Debug\net5.0\Smt.TodoAppNTier.Entities.dll
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Entities\bin\Debug\net5.0\Smt.TodoAppNTier.Entities.pdb
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Entities\obj\Debug\net5.0\Smt.TodoAppNTier.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Entities\obj\Debug\net5.0\Smt.TodoAppNTier.Entities.AssemblyInfoInputs.cache
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Entities\obj\Debug\net5.0\Smt.TodoAppNTier.Entities.AssemblyInfo.cs
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Entities\obj\Debug\net5.0\Smt.TodoAppNTier.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Entities\obj\Debug\net5.0\Smt.TodoAppNTier.Entities.sourcelink.json
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Entities\obj\Debug\net5.0\Smt.TodoAppNTier.Entities.dll
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Entities\obj\Debug\net5.0\refint\Smt.TodoAppNTier.Entities.dll
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Entities\obj\Debug\net5.0\Smt.TodoAppNTier.Entities.pdb
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Entities\obj\Debug\net5.0\ref\Smt.TodoAppNTier.Entities.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Smt.TodoAppNTier.Dtos/1.0.0": {
+        "runtime": {
+          "Smt.TodoAppNTier.Dtos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Smt.TodoAppNTier.Dtos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Dtos\bin\Debug\net5.0\Smt.TodoAppNTier.Dtos.deps.json
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Dtos\bin\Debug\net5.0\Smt.TodoAppNTier.Dtos.dll
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Dtos\bin\Debug\net5.0\Smt.TodoAppNTier.Dtos.pdb
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Dtos\obj\Debug\net5.0\Smt.TodoAppNTier.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Dtos\obj\Debug\net5.0\Smt.TodoAppNTier.Dtos.AssemblyInfoInputs.cache
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Dtos\obj\Debug\net5.0\Smt.TodoAppNTier.Dtos.AssemblyInfo.cs
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Dtos\obj\Debug\net5.0\Smt.TodoAppNTier.Dtos.csproj.CoreCompileInputs.cache
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Dtos\obj\Debug\net5.0\Smt.TodoAppNTier.Dtos.sourcelink.json
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Dtos\obj\Debug\net5.0\Smt.TodoAppNTier.Dtos.dll
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Dtos\obj\Debug\net5.0\refint\Smt.TodoAppNTier.Dtos.dll
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Dtos\obj\Debug\net5.0\Smt.TodoAppNTier.Dtos.pdb
+C:\Users\Maraz\source\repos\Smt.TodoAppNTier\Smt.TodoAppNTier.Dtos\obj\Debug\net5.0\ref\Smt.TodoAppNTier.Dtos.dll
