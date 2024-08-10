@@ -1,4 +1,5 @@
-﻿using Smt.TodoAppNTier.Dtos.WorkDtos;
+﻿using Smt.TodoAppNTier.Dtos.Interfaces;
+using Smt.TodoAppNTier.Dtos.WorkDtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace Smt.TodoAppNTier.Business.Interfaces
         Task<List<WorkListDto>> GetAll();
         Task Create(WorkCreateDto dto);
 
-        Task<WorkListDto> GetById(int id);
+        Task<IDto> GetById<IDto>(int id);
 
         Task Remove(int id);
 

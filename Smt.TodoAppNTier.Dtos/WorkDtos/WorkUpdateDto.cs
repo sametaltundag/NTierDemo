@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Smt.TodoAppNTier.Dtos.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Smt.TodoAppNTier.Dtos.WorkDtos
 {
-    public class WorkUpdateDto
+    public class WorkUpdateDto : IDto
     {
         [Range(1,int.MaxValue,ErrorMessage ="Id is required")]
         public int Id { get; set; }

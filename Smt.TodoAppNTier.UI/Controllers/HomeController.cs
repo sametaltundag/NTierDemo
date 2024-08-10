@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Smt.TodoAppNTier.Business.Interfaces;
+using Smt.TodoAppNTier.Dtos.Interfaces;
 using Smt.TodoAppNTier.Dtos.WorkDtos;
 using System.Threading.Tasks;
 
@@ -9,12 +10,10 @@ namespace Smt.TodoAppNTier.UI.Controllers
     public class HomeController : Controller
     {
         private readonly IWorkService _workService;
-        private readonly IMapper _mapper;
 
-        public HomeController(IWorkService workService, IMapper mapper)
+        public HomeController(IWorkService workService)
         {
             _workService = workService;
-            _mapper = mapper;
         }
 
         public async Task<IActionResult> Index()
@@ -41,9 +40,8 @@ namespace Smt.TodoAppNTier.UI.Controllers
 
         public async Task<IActionResult> Update(int id)
         {
-            var dto = await _workService.GetById(id);
 
-            return View(_mapper.Map<WorkUpdateDto>(dto));
+            return View(await _workService.GetById<WorkUpdateDto>(id));
         }
 
         [HttpPost]

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Smt.TodoAppNTier.Business.Interfaces;
 using Smt.TodoAppNTier.DataAccess.UnitOfWork;
+using Smt.TodoAppNTier.Dtos.Interfaces;
 using Smt.TodoAppNTier.Dtos.WorkDtos;
 using Smt.TodoAppNTier.Entities.Concrete;
 using System;
@@ -49,9 +50,9 @@ namespace Smt.TodoAppNTier.Business.Services
             return _mapper.Map<List<WorkListDto>>(await _uow.GetRepository<Work>().GetAll());
         }
 
-        public async Task<WorkListDto> GetById(int id)
+        public async Task<IDto> GetById<IDto>(int id)
         {
-            return _mapper.Map<WorkListDto>(await _uow.GetRepository<Work>().GetByFilter(x => x.Id == id));
+            return _mapper.Map<IDto>(await _uow.GetRepository<Work>().GetByFilter(x => x.Id == id));
         }
 
         public async Task Remove(int id)

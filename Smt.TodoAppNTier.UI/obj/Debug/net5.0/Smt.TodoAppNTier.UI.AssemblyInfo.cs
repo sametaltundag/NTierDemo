@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Smt.TodoAppNTier.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+733ac84117bbb40f4b5c13c1cb056e390e27f253")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c87370c5f67e40f41737d359b19d24bd8b7c0f45")]
 [assembly: System.Reflection.AssemblyProductAttribute("Smt.TodoAppNTier.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Smt.TodoAppNTier.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
