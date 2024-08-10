@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Smt.TodoAppNTier.DataAccess\Smt.TodoAppNTier.DataAccess.csproj" />
     <ProjectReference Include="..\Smt.TodoAppNTier.Dtos\Smt.TodoAppNTier.Dtos.csproj" />
   </ItemGroup>

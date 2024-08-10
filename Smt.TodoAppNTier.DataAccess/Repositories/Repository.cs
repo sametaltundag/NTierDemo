@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Smt.TodoAppNTier.DataAccess.Context;
 using Smt.TodoAppNTier.DataAccess.Interfaces;
+using Smt.TodoAppNTier.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Smt.TodoAppNTier.DataAccess.Repositories
 {
-    public class Repository<T> : IRepository<T> where T : class, new()
+    public class Repository<T> : IRepository<T> where T : BaseEntity
     {
         private readonly TodoContext _context;
 
@@ -39,14 +40,17 @@ namespace Smt.TodoAppNTier.DataAccess.Repositories
             return await _context.Set<T>().FindAsync(id);
         }
 
-        public void Remove(T entity)
-        {
-            _context.Set<T>().Remove(entity);
+        public void Remove(object id)
+        { 
+            var deletedEntity = _context.Set<T>().Find(id);
+            _context.Set<T>().Remove(deletedEntity);
         }
 
         public void Update(T entity)
         {
-            _context.Set<T>().Update(entity);
+            var updatedEntity = _context.Set<T>().Find(entity.Id);
+            _context.Entry(updatedEntity).CurrentValues.SetValues(entity);
+            //_context.Set<T>().Update(entity);
         }
 
         public IQueryable<T> GetQuery()

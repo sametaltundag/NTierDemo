@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Smt.TodoAppNTier.Dtos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+994e186c6e24b374e68b7836ac39884a50542ad6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+733ac84117bbb40f4b5c13c1cb056e390e27f253")]
 [assembly: System.Reflection.AssemblyProductAttribute("Smt.TodoAppNTier.Dtos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Smt.TodoAppNTier.Dtos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
